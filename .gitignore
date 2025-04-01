@@ -160,14 +160,11 @@ cython_debug/
 *.pyc
 
 notebooks/
-Makefile
 logs/
 .venv/
 .vscode/
 .pytest_cache/
 .ruff_cache/
 .editorconfig
-data/.gitkeep
-data/
 poetry.toml
 ideation/
