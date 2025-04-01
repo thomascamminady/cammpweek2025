@@ -10,7 +10,15 @@ repository = "https://github.com/thomascamminady/cammpweek2025"
 homepage = "https://github.com/thomascamminady/cammpweek2025"
 documentation = "https://thomascamminady.github.io/cammpweek2025"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "fire>=0.7.0",
+    "folium>=0.19.5",
+    "geopandas>=1.0.1",
+    "matplotlib>=3.10.1",
+    "polars>=1.26.0",
+    "polarspiper>=0.4.0",
+    "pyarrow>=19.0.1",
+]
 
 [build-system]
 requires = ["hatchling"]
@@ -36,7 +44,6 @@ lint.ignore = [
     "D401",
     "E501",
 ]
-line-length = 80
 lint.select = [
     "B",
     "B9",
@@ -49,6 +56,7 @@ lint.select = [
     "W",
     "I001",
 ]
+line-length = 80
 
 [tool.ruff.lint.mccabe]
 max-complexity = 10
