@@ -38,10 +38,10 @@ coverage:
 
 
 export:
-	uv run python src/cammpweek2025/export_network.py
+	uv run python src/cammpweek2025/utils/export_network.py
 
 map:
-	uv run python src/cammpweek2025/create_map.py 
+	uv run python src/cammpweek2025/utils/create_map.py 
 
 main:
 	uv run python src/cammpweek2025/main.py

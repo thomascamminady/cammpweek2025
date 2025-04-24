@@ -2,7 +2,7 @@
 
 import fire
 
-from cammpweek2025.create_graph import create_graph
+from cammpweek2025.utils.create_graph import create_graph
 from cammpweek2025.utils.logger import logger
 
 
