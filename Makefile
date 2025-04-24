@@ -37,8 +37,11 @@ coverage:
 	uvx pytest --cov=cammpweek2025 tests/
 
 
-preprocess:
-	uv run python src/cammpweek2025/preprocess_data.py
+export:
+	uv run python src/cammpweek2025/export_network.py
 
-plotmap:
-	uv run python src/cammpweek2025/plot.py --df_road_path="data/processed/roads.parquet" --df_points_of_interest_path="data/processed/points_of_interest.parquet"  
+map:
+	uv run python src/cammpweek2025/create_map.py 
+
+main:
+	uv run python src/cammpweek2025/main.py

@@ -11,13 +11,10 @@ homepage = "https://github.com/thomascamminady/cammpweek2025"
 documentation = "https://thomascamminady.github.io/cammpweek2025"
 requires-python = ">=3.12"
 dependencies = [
-    "fire>=0.7.0",
     "folium>=0.19.5",
     "geopandas>=1.0.1",
     "matplotlib>=3.10.1",
-    "polars>=1.26.0",
-    "polarspiper>=0.4.0",
-    "pyarrow>=19.0.1",
+    "pandas>=2.2.3",
 ]
 
 [build-system]
@@ -26,8 +23,11 @@ build-backend = "hatchling.build"
 
 [dependency-groups]
 dev = [
+    "fire>=0.7.0",
     "ipykernel>=6.29.5",
     "mypy>=1.14.1",
+    "networkx>=3.4.2",
+    "osmnx>=2.0.2",
     "pylint>=3.3.3",
     "pytest>=8.3.4",
     "pytest-cov>=6.0.0",
