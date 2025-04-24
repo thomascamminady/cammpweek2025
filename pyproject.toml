@@ -36,6 +36,35 @@ dev = [
 ]
 
 [tool.ruff]
+# Add this block:
+exclude = [
+  # VCS metadata
+  ".git",
+  ".github",
+
+  # Virtual-envs & caches
+  ".venv",
+  "__pycache__",
+  ".ipynb_checkpoints",
+  ".mypy_cache",
+  ".pytest_cache",
+  ".ruff_cache",
+
+  # Docs, data & notebooks
+  "data/**",
+  "docs/**",
+
+  # Non-Python files
+  "*.md",
+  "*.toml",
+  "*.yaml",
+  "*.yml",
+
+  # Python bytecode
+  "*.pyc",
+]
+
+
 lint.ignore = [
     "D100",
     "D101",
