@@ -36,9 +36,9 @@ If you have questions along the way, don't hesitate to reach out! Cheers and goo
 ## Installation
 
 -   Install `uv`: https://github.com/astral-sh/uv
--   Clone repo.
--   `cd repo`
--   `uv sync`
+-   `git clone git@github.com:thomascamminady/cammpweek2025.git` Clone repo.
+-   `cd cammpweek2025`
+-   `make uv` Setup `uv`.
 -   `make export` Export the data.
 -   `make map` Creates a map inside `outpout/`.
 -   `make main` To print some basic information about the graph.
