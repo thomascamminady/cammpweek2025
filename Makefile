@@ -45,3 +45,9 @@ map:
 
 main:
 	uv run python src/cammpweek2025/main.py
+
+convert:
+	uv run python src/cammpweek2025/utils/convert_json_to_csv.py
+	
+plot:
+	uv run python src/cammpweek2025/utils/plot_workouts.py

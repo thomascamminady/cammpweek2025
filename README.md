@@ -50,7 +50,4 @@ If you have questions along the way, don't hesitate to reach out! Cheers and goo
 -   `make export` Export the data.
 -   `make map` Creates a map inside `outpout/`.
 -   `make main` To print some basic information about the graph.
-
-## TODO
-
--   [ ] Add workout files
+-   `make plot` To show workouts.
