@@ -169,3 +169,4 @@ logs/
 poetry.toml
 ideation/
 .DS_Store
+data/workouts/*json
