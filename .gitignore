@@ -168,3 +168,4 @@ logs/
 .editorconfig
 poetry.toml
 ideation/
+.DS_Store
