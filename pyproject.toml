@@ -59,6 +59,8 @@ exclude = [
   "*.toml",
   "*.yaml",
   "*.yml",
+  "*.html",
+  "*.json",
 
   # Python bytecode
   "*.pyc",
