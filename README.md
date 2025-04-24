@@ -1,5 +1,9 @@
 # cammpweek2025
 
+01.06 - 06.06.2025
+
+See: [https://www.scc.kit.edu/en/research/11519.php](https://www.scc.kit.edu/en/research/11519.php)
+
 ## Description
 
 At Wahoo Fitness, we want to help build the better athlete in all of us.

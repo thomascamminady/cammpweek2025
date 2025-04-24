@@ -64,12 +64,25 @@ def main(
 
     # 4) build map
     centroid = edges.geometry.union_all().centroid
-    m = folium.Map(
-        location=[centroid.y, centroid.x],
-        zoom_start=13,
-        tiles="CartoDB Positron",
-        attr="&copy; CARTO",
-    )
+    m = folium.Map(location=[centroid.y, centroid.x], zoom_start=13)
+
+    folium.TileLayer(
+        "CartoDB Positron",
+        name="Positron",
+        attr='© <a href="https://carto.com/attributions">CARTO</a> | © OpenStreetMap contributors',
+        show=True,  # ← this one shows on load
+    ).add_to(m)
+    # add Esri Satellite imagery (off by default)
+    folium.TileLayer(
+        tiles="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+        name="Esri Satellite",
+        attr=(
+            "Tiles &copy; Esri &mdash; "
+            "Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, "
+            "Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
+        ),
+        show=False,
+    ).add_to(m)
 
     # 5) prepare tooltip fields dynamically
     tooltip_fields = []

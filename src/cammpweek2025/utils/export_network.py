@@ -17,7 +17,7 @@ def main(
 ):
     # 1) build your street‐between‐junctions network as before…
     ox.settings.useful_tags_way += ["surface", "smoothness"]  # type: ignore
-    west, south, east, north = 7.06, 50.70, 7.15, 50.77
+    west, south, east, north = 7.0, 50.60, 7.2, 50.8
     bbox = (west, south, east, north)
     custom_filter = '["highway"~"^(residential|unclassified|tertiary|secondary|primary|cycleway)$"]'
     G = ox.graph_from_bbox(
@@ -52,6 +52,7 @@ def main(
         "name",
         "lanes",
         "width",
+        "ref",
     ]:
         if tag in edges.columns:
             edges[tag] = edges[tag].apply(
