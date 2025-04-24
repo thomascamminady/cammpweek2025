@@ -10,6 +10,7 @@ def main(
     edges_file: str = "data/streets_between_junctions.geojson",
     signals_file: str = "data/traffic_signals.geojson",
     stops_file: str = "data/stop_signs.geojson",
+    n: int = 5,
 ):
     G = create_graph(
         edges_file=edges_file,
@@ -18,13 +19,12 @@ def main(
     )
 
     logger.info("Sample edges with attributes:")
-    for u, v, data in list(G.edges(data=True))[:5]:
-        print(f"Edge {u}->{v}:")
+    for u, v, data in list(G.edges(data=True))[:n]:
+        logger.info(f"Edge {u}->{v}:")
         for key, val in data.items():
             logger.info(f"  {key}: {val}")
         logger.info("")
 
-    # log summary
     logger.info(
         f"Graph built with {G.number_of_nodes()} nodes and {G.number_of_edges()} edges."
     )
