@@ -11,7 +11,8 @@ To do that, we take a multi step approach, developing both hardware solutions to
 as well as software solutions and training material to guide them.
 We want you to help us, bringing some of the indoor content to the outside world.
 
-Using our indoor trainers, we give athletes the ability to perform specific training programs under optimal circumstances. For example, athletes can use the Wahoo KICKR to perform a specific workout as shown below.
+Using our indoor trainers, we give athletes the ability to perform specific training programs under optimal circumstances.
+For example, athletes can use the Wahoo KICKR to perform a specific workout as shown below.
 
 ![Wahoo KICKR](output/kickr.png)
 
@@ -31,7 +32,10 @@ As an example, I have exported the road network for the city of Bonn (where I li
 
 The data contains information about the network connectivity, as well as the smoothness of the roads and the surface.
 
-Using you personal concept of _optimality_ and many (likely ambiguous) modeling assumptions, find a way to map a couple of our workouts onto the roads of the city of Bonn. Here, a good course is a course that uses smooth roads, avoids a lot of stop signs during the intervals (or traffic lights), ideally uses the more residential roads rather than busy main roads. Usually, cyclist also don't want to end their workout too far away from their start location.
+Using you personal concept of _optimality_ and many (likely ambiguous) modeling assumptions,
+find a way to map a couple of our workouts onto the roads of the city of Bonn.
+Here, a good course is a course that uses smooth roads, avoids a lot of stop signs during the intervals (or traffic lights),
+ideally uses the more residential roads rather than busy main roads. Usually, cyclist also don't want to end their workout too far away from their start location.
 
 It's important to start easy, pick some criteria that is important to _you_ and and a way to find an optimal course for that criteria, then expand.
 
@@ -49,4 +53,4 @@ If you have questions along the way, don't hesitate to reach out! Cheers and goo
 
 ## TODO
 
--   Add workout files
+-   [ ] Add workout files
