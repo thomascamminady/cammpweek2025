@@ -37,7 +37,7 @@ find a way to map a couple of our workouts onto the roads of the city of Bonn.
 Here, a good course is a course that uses smooth roads, avoids a lot of stop signs during the intervals (or traffic lights),
 ideally uses the more residential roads rather than busy main roads. Usually, cyclists also don't want to end their workout too far away from their start location.
 
-It's important to start easy, pick some criteria that is important to _you_ and and a way to find an optimal course for that criteria, then expand.
+It's important to start easy, pick some criteria that is important to _you_ and a way to find an optimal course for that criteria, then expand.
 
 If you have questions along the way, don't hesitate to reach out! Cheers and good luck!
 
@@ -48,6 +48,6 @@ If you have questions along the way, don't hesitate to reach out! Cheers and goo
 -   `cd cammpweek2025`
 -   `make uv` Setup `uv`.
 -   `make export` Export the data.
--   `make map` Creates a map inside `outpout/`.
+-   `make map` Creates a map inside `output/`.
 -   `make main` To print some basic information about the graph.
 -   `make plot` To show workouts.
