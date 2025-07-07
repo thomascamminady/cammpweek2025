@@ -229,9 +229,9 @@ iniconfig==2.1.0 \
 ipykernel==6.29.5 \
     --hash=sha256:afdb66ba5aa354b09b91379bac28ae4afebbb30e8b39510c9690afb7a10421b5 \
     --hash=sha256:f093a22c4a40f8828f8e330a9c297cb93dcab13bd9678ded6de8e5cf81c56215
-ipython==9.0.2 \
-    --hash=sha256:143ef3ea6fb1e1bffb4c74b114051de653ffb7737a3f7ab1670e657ca6ae8c44 \
-    --hash=sha256:ec7b479e3e5656bf4f58c652c120494df1820f4f28f522fb7ca09e213c2aab52
+ipython==9.4.0 \
+    --hash=sha256:25850f025a446d9b359e8d296ba175a36aedd32e83ca9b5060430fe16801f066 \
+    --hash=sha256:c033c6d4e7914c3d9768aabe76bbe87ba1dc66a92a05db6bfa1125d81f2ee270
     # via ipykernel
 ipython-pygments-lexers==1.1.1 \
     --hash=sha256:09c0138009e56b6854f9535736f4171d855c8c08a563a0dcd8022f78355c7e81 \
